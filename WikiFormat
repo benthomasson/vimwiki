@@ -2,6 +2,7 @@
 
 WikiFormat
 
-The only format specification for wikis is that the name of pages are camel case.
+The only format convention for wikis is that the name of pages should be camel case.
 
-Don't use Markdown format.
+Also, don't use Markdown format inside wikis because it doesn't render automatically
+on GitHub without the .md extension which breaks the wiki links.
