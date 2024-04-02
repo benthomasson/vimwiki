@@ -1,2 +1,9 @@
 
-This is a VimWiki
+
+This is a VimWiki.
+
+This is a collection of text files that work together to form a personal wiki.
+Links between pages are created by using any word as the filename.  By
+convention CamelCase words are page names.  See VimWiki for more information.
+
+
