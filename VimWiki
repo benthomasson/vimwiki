@@ -1,0 +1,23 @@
+
+
+VimWiki
+
+A VimWiki is a set of files that work as a wiki in Vim.
+
+Add this to your ~/.vimrc
+
+:noremap gf :e <cfile><cr>
+
+Use gf on a word to open up a file with that name.
+
+RecentChanges
+
+Use <CTRL>-o to go back to the previous file.
+
+Use gx on a link to open that link in your browser.
+
+https://google.com
+
+There is no standard format for wiki files other than WikiFormat.
+
+Use the update.sh script to update RecentChanges

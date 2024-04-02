@@ -1,0 +1,7 @@
+
+WikiSpaces in VimWiki are subdirectories
+
+When switching WikiSpaces make sure to set the current directory using F5.
+
+nmap <F5> :lcd%:p:h<CR>:pwd<CR>
+

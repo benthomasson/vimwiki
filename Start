@@ -1,0 +1,22 @@
+
+Welcome to this Wiki.  It is a VimWiki.
+
+This is the Start page.
+
+Add this to your ~/.vimrc
+
+:noremap gf :e <cfile><cr>
+
+Use gf on a word to open up a file with that name.
+
+Use <CTRL>-o to go back to the previous file.
+
+There are multiple WikiSpaces here in subdirectories.
+
+Use <F5> to change to the current directory of the page you are on.
+
+nmap <F5> :lcd%:p:h<CR>:pwd<CR>
+
+Ansible/Start
+
+
